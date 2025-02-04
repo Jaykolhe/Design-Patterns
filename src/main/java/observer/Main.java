@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         NewsAgency newsAgency = new NewsAgency();
 
-     NewsChannel channel1 = new NewsChannel("Abp Maza");
+        NewsChannel channel1 = new NewsChannel("Abp Maza");
         NewsChannel channel2 = new NewsChannel("Aaj Tak");
 
         newsAgency.addObserver(channel1);
